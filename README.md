@@ -1,8 +1,8 @@
-# tempo-docker-compose
+# loki-docker-compose
 Standalone docker setup to create a loki datasource for Grafana
 
 ### Running locally
-- setup loki configuration in `config/loki.yaml`
+- setup loki configuration in `config/loki.yaml`. Important ones are 
 - setup number of read/write targets in `compose.yaml`
 - setup listen ports for loki-gateway in `compose.yaml`
 - start the containers e.g. `podman-compose up -d`
